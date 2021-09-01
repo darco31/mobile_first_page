@@ -14,6 +14,21 @@
     --main-bg-color: #d0cd94;
   }
 
+.heading__one {
+    color: var(--main-text-color);
+    font-size: 1.8rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head__img {
+    background:url('images/dublin.jpg') no-repeat center center;
+    height: 60vh;
+    width: 100%;
+}
+
 
 #main--section {
     height: 60vh;
@@ -94,4 +109,9 @@ font-family: inherit;
     font-size: 2rem;
     margin: 0.5rem;
     color: var(--main-text-color);
+}
+
+.div__image {
+    height: 18rem;
+    width: 20rem;
 }
